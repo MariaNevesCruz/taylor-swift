@@ -1,0 +1,116 @@
+/* Taylor Swift inspired style replicated from biografia.css */
+
+body {
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #3a2e39;
+    background-color: #fff0f6;
+    margin: 0;
+    padding: 0 4em;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    min-height: 100vh;
+}
+
+header {
+    border-bottom: 2px solid #d8a7b1;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1em 0;
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+    background-color: #f9d6dd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(216, 167, 177, 0.5);
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #7a4a59;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+nav ul a:hover,
+nav ul a:focus {
+    background-color: #d8a7b1;
+    color: #fff0f6;
+    box-shadow: 0 0 8px #d8a7b1;
+}
+
+h1 {
+    font-size: 2.8em;
+    font-weight: 700;
+    margin: 0.2em 0 0.5em 0;
+    color: #7a4a59;
+    text-align: center;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    text-shadow: 1px 1px 2px #f9d6dd;
+}
+
+main {
+    margin-bottom: 3em;
+    font-family: 'Georgia', serif;
+    color: #4a3c44;
+}
+
+#imagem {
+    float: right;
+    margin: 0 0 1em 25px;
+    border: 3px solid #d8a7b1;
+    border-radius: 12px;
+    max-width: 200px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(216, 167, 177, 0.6);
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1.2em;
+    font-size: 1.1em;
+}
+
+footer {
+    border-top: 2px solid #d8a7b1;
+    padding-top: 1em;
+    font-size: 1em;
+    color: #7a4a59;
+    text-align: center;
+    margin-top: 3em;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+/* Remove default margin on body and html for consistent spacing */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Clear floats after main content */
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style for the quote paragraph in Carreira page */
+main h3 + p {
+    font-size: 0.9em;
+    font-style: italic;
+    margin-left: 2em;
+    color: #555;
+    border-left: 3px solid #ccc;
+    padding-left: 1em;
+}
